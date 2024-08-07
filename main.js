@@ -138,10 +138,10 @@ document.getElementById('add-to-cart').addEventListener('click', function() {
   // Fonction pour créer un message WhatsApp encodé
   function createWhatsAppMessage(data) {
       const message = `*Product Details*\n\n` +
-                      `Team: ${data.team}\n` +
-                      `Color: ${data.color}\n` +
-                      `Size: ${data.size}\n` +
-                      `Quantity: ${data.quantity}`;
+                      `Equipe: ${data.team}\n` +
+                      `Couleurr: ${data.color}\n` +
+                      `Taille: ${data.size}\n` +
+                      `Quantité: ${data.quantity}`;
       return encodeURIComponent(message);
   }
 
