@@ -100,7 +100,7 @@ document.getElementById('signup-form').addEventListener('submit', function(event
   const whatsappMessage = `Bonjour, je viens de m'inscrire sur votre site Web.\n\n` +
                           `Nom: ${name}\n` +
                           `Email: ${email}\n` +
-                          `Sujet: ${subject}\n` +
+                          `Ma Localisation: ${subject}\n` +
                           `Message: ${message}`;
   
   // Encodage du message pour l'URL
