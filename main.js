@@ -147,7 +147,7 @@ document.getElementById('add-to-cart').addEventListener('click', function() {
 
   // Fonction pour créer l'URL WhatsApp
   function createWhatsAppURL(encodedMessage) {
-      const phoneNumber = '783577431'; // Numéro de téléphone de l'entreprise
+      const phoneNumber = '776063650'; // Numéro de téléphone de l'entreprise
       return `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
   }
 
